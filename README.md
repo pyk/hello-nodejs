@@ -40,6 +40,10 @@ Install [micro][micro] using the following command:
     npm install --save micro
     npm install --save-dev micro-dev
 
+Update `index.js`:
+
+    module.exports = () => "Hello\n";
+
 Update npm `scripts` in `package.json`:
 
     "scripts": {
@@ -63,6 +67,6 @@ Run the server:
        │                                                   │
        └───────────────────────────────────────────────────┘
 
-
+## Setu
 
 [micro]: https://github.com/zeit/micro
